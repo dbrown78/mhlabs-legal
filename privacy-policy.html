@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - ODIN AutoAlert</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; background: #0a0a0a; color: #e8e8e8; font-size: 16px; line-height: 1.7; margin: 0; }
+    .container { max-width: 720px; margin: 0 auto; padding: 60px 24px 100px; }
+    .logo { font-size: 13px; font-weight: 600; letter-spacing: 0.12em; color: #888; text-transform: uppercase; margin-bottom: 48px; }
+    h1 { font-size: 28px; font-weight: 600; color: #fff; margin-bottom: 8px; }
+    h2 { font-size: 16px; font-weight: 600; color: #fff; margin: 40px 0 12px; }
+    p { color: #b0b0b0; margin-bottom: 14px; }
+    a { color: #4CAF82; text-decoration: none; }
+    .meta { font-size: 13px; color: #666; margin-bottom: 48px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 14px; }
+    th { text-align: left; color: #888; font-size: 12px; padding: 8px 12px; border-bottom: 1px solid #222; }
+    td { padding: 10px 12px; border-bottom: 1px solid #1a1a1a; color: #b0b0b0; }
+    td:first-child { color: #e8e8e8; font-weight: 500; }
+    .box { background: #111; border: 1px solid #222; border-radius: 8px; padding: 20px 24px; }
+    .overview { margin-bottom: 40px; }
+    .contact { margin-top: 48px; }
+    footer { margin-top: 60px; font-size: 12px; color: #444; border-top: 1px solid #1a1a1a; padding-top: 24px; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="logo">ODIN Technologies LLC</div>
+  <h1>Privacy Policy</h1>
+  <div class="meta">ODIN AutoAlert &mdash; Last updated: April 14, 2026</div>
+  <div class="box overview"><p>AutoAlert collects only what is necessary to provide vehicle diagnostics, predictive maintenance, and mechanic discovery. We do not sell your personal data. We do not use your data for advertising.</p></div>
+  <h2>1. Information We Collect</h2>
+  <p><strong style="color:#e8e8e8">Account information.</strong> Name, email, hashed password.</p>
+  <p><strong style="color:#e8e8e8">Vehicle &amp; diagnostic data.</strong> Year, make, model, VIN; OBD2 DTCs; sensor readings (RPM, temp, fuel trim, O2 values); scan history.</p>
+  <p><strong style="color:#e8e8e8">Bluetooth data.</strong> Connection metadata stays in-session only, never transmitted to servers.</p>
+  <p><strong style="color:#e8e8e8">Location data.</strong> Used only for Mechanic Finder (while app is in use). Not stored on our servers.</p>
+  <p><strong style="color:#e8e8e8">Usage data.</strong> App version, OS version, anonymous crash reports.</p>
+  <h2>2. How We Use Your Information</h2>
+  <table><thead><tr><th>Data</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td>Account info</td><td>Authentication and account management</td></tr>
+    <tr><td>Vehicle &amp; sensor data</td><td>Diagnostics, scan history, Foresight predictive alerts</td></tr>
+    <tr><td>Location</td><td>Finding nearby mechanics (one-time, per request)</td></tr>
+    <tr><td>Usage data</td><td>Bug fixes and performance improvements</td></tr>
+  </tbody></table>
+  <h2>3. Data Storage</h2>
+  <p>Stored in PostgreSQL on Railway (railway.app), US-based. All transmission over HTTPS TLS 1.2+. Auth tokens in iOS Keychain. Data deleted within 30 days of account deletion.</p>
+  <h2>4. Third-Party Services</h2>
+  <table><thead><tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr></thead><tbody>
+    <tr><td>Railway</td><td>Database and backend hosting</td><td><a href="https://railway.app/legal/privacy">railway.app/legal/privacy</a></td></tr>
+    <tr><td>Google Places API</td><td>Mechanic Finder</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+    <tr><td>Apple App Store</td><td>App distribution</td><td><a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></td></tr>
+  </tbody></table>
+  <p>We do not use Facebook SDK, Google Analytics, Mixpanel, Amplitude, or any advertising/tracking SDKs.</p>
+  <h2>5. Data Sharing</h2>
+  <p>We do not sell, rent, or trade personal information. Shared only with Railway as hosting provider, or when required by law.</p>
+  <h2>6. Your Rights</h2>
+  <p>Access, correct, or delete your data at any time. California residents: full CCPA rights. EU/UK residents: full GDPR rights including data portability.</p>
+  <p>Email <a href="mailto:elitesellers201@gmail.com">elitesellers201@gmail.com</a> with subject line "Privacy Request". We respond within 30 days.</p>
+  <h2>7. Permissions We Request</h2>
+  <table><thead><tr><th>Permission</th><th>Why It Is Needed</th></tr></thead><tbody>
+    <tr><td>Bluetooth</td><td>Connect to OBD2 adapter for vehicle diagnostics</td></tr>
+    <tr><td>Location (While In Use)</td><td>Find mechanics near your location</td></tr>
+    <tr><td>Face ID / Biometrics</td><td>Optional secure app access (on-device only)</td></tr>
+  </tbody></table>
+  <h2>8. Children</h2>
+  <p>AutoAlert is not directed at children under 13. We do not knowingly collect their information.</p>
+  <h2>9. Security</h2>
+  <p>HTTPS TLS 1.2+, bcrypt hashing, JWT with refresh token rotation, iOS Keychain storage, rate limiting on all endpoints.</p>
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this policy. Material changes communicated via app or email. Continued use constitutes acceptance.</p>
+  <div class="box contact">
+    <p><strong style="color:#e8e8e8">ODIN Technologies LLC</strong></p>
+    <p>Jersey City, NJ</p>
+    <p><a href="mailto:elitesellers201@gmail.com">elitesellers201@gmail.com</a></p>
+    <p style="margin-top:8px;font-size:13px;color:#666">Include "Privacy Request" in the subject line for privacy requests.</p>
+  </div>
+  <footer>Applies to ODIN AutoAlert iOS app (Bundle ID: com.mhlabs201.odin) and associated backend services.</footer>
+</div>
+</body>
+</html>
